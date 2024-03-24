@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: 'Bitter', 'Times new roman', sans-serif;
+    color: bisque;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#logo{
+    height: 200px;
+    width: 200px;
+    z-index: 2;
+    position: absolute;
+}
+
+#splash-image{
+    background: url('./assets/splash-photo.jpg') no-repeat center center;
+    background-size: cover;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner{
+    background-color: black;
+    opacity: 50%;
+    z-index: 1;
+    height: 20vh;
+    width: 100%;
+    
+}
+#form-section{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,45,42,1) 35%, rgba(0,0,0,1) 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#top-paragraph{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#form-container{
+    background: url('./assets/paper-texture.jpg') no-repeat center center;
+    background-size: cover;
+    color: #002d2a;
+    font-weight: 900;
+    width: 100%;
+}
+form{
+    margin-bottom: 0;
+}
+form > h2 {
+  font-weight: bolder;
+  margin-left: 5%;
+}
+form > label{
+    margin-left: 0;
+}
+#input-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+.form-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    border-radius: 4px;
+    border: none;
+    color:#002d2a;
+    font-family: 'Bitter', 'Times new roman', sans-serif;
+    font-weight: bold;
+
+}
+input:focus{
+    background-color: bisque;
+    
+}
+
+#login{ 
+    color: bisque;
+}
+#login > span {
+    color: red;
+}
+
+.form-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#submit-button{
+    background-color: bisque;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Bitter';
+    font-weight: bold;
+    font-size: larger;
+    color: #002d2a;
+}
+#submit-button:hover{
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+span:hover{
+    cursor: pointer;
+}
+#button-container{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,45,42,1) 35%, rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 5%;
+}
